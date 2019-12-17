@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="380dp"
+    android:layout_marginBottom="37dp"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/cat_id"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Catagory"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/view_cat_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="24dp"
+        android:background="@android:color/transparent"
+        android:text="View All"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="19sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/cat_id">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/item_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="23dp"
+            android:layout_toLeftOf="@id/load_more">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/load_more"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/icon_background_white"
+            android:src="@mipmap/show_all"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

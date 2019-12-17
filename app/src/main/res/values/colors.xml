@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#12c42d</color>
+    <color name="white">#FFF</color>
+    <color name="red">#dc2f2f</color>
+    <color name="nom_color">#808080</color>
+    <color name="clickBackground">#49CC5C</color>
+    <color name="nav_click">#374639</color>
+
+    <color name="white_">#C4F1B3</color>
+</resources>
